@@ -8,7 +8,7 @@ and there is one white peg generated in a random position at the start of the ga
 A peg can be flipped into white if there is at least one white peg around it (up, down, left, right)
 ## Types
 - **_Position_** represents the position of a peg on the board (column #, row #)
-- **_Colour_** represents the colour of the pegs (WHite or Black)
+- **_Colour_** represents the colour of the pegs (White or Black)
 - **_Peg_** represents the physical pegs on the board in the form: 'Peg (col, row) Colour'
 - **_Move_** represents the moves the player wants to make; which peg they want to turn white in the form: 'M (col, row)'
 - **_Board_** represents the board on which the pegs are in the form of a list of Pegs
