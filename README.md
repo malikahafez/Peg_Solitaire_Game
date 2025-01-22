@@ -15,4 +15,9 @@ A peg can be flipped into white if there is at least one white peg around it (up
 - **_State_** represents the state of the board after a successful move is made in the form of a successful move and the board after it got updated
 
 ## Functions
-
+  - **createBoard** which takes the position of the first white peg and returns a board populated with black pegs and the white peg in the position given
+    an ERROR occurs if the position does not exist on the board
+  - **isValidMove** which takes a move and a board as inputs and returns _true_ if the move is valid and _false_ if not
+  - **isGoal** which checks if the player won the game or not; checks if all the pegs have been flipped to white
+  - **showPossibleNextStates** which takes a board and returns all possible unique states that can be reached from the current state of the board; the states that are reachable are those that result from a valid move
+    an ERROR occurs if the board is already in a winning state
